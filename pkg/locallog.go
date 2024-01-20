@@ -1,4 +1,4 @@
-package locallog
+package pkg
 
 import (
 	"fmt"
