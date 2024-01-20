@@ -72,7 +72,5 @@ func New(name string) LogFile {
 		panic(err)
 	}
 
-	defer file.Close()
-
 	return LogFile{File: file}
 }
