@@ -1,3 +1,3 @@
-module go-mycms-local-log
+module go-mycms-locallog
 
 go 1.21
