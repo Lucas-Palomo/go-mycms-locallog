@@ -20,6 +20,7 @@ const (
 
 func (level logLevel) Name() string {
 	levels := []string{
+		"INIT",
 		"INFO",
 		"WARNING",
 		"ERROR",
